@@ -1,0 +1,127 @@
+body #error{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(2, 211, 248);
+    clip-path: polygon(100% 0, 100% 38%, 51% 100%, 0 100%, 0 0);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+h1{
+    font-size: 50px;
+    width: 850px;
+    margin: 90px;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 350px;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    box-shadow: 10px 10px 10px #888888;
+}
+body{
+    margin: 20px;
+}
+li{
+    display: inline;
+    margin: 20px;
+position: relative;
+left: 1300px;
+}
+.li1{
+    border-bottom: 2px solid pink;
+    border-left: 2px solid pink;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.li2{
+    border-bottom: 2px solid pink;
+    border-left: 2px solid pink;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.li3{
+    border-bottom: 2px solid pink;
+    border-left: 2px solid pink;
+    font-size: 20px;
+    font-family: fantasy;
+}
+a {
+    color: #4b4b4b;
+}
+.square1 {
+    background: #00aa9d;
+    border-radius: 3px;
+    height: 250px;
+    margin: 100px;
+    position: absolute;
+    transition: transform 0.8s;
+    width: 150px;
+    top: 240px;
+}
+
+
+.square2{
+    background: #2b3f53;
+    border-radius: 3px;
+    height: 250px;
+    margin: 100px;
+    transition: transform 0.8s;
+    position: absolute;
+    width: 150px;
+box-shadow: 10px 10px 10px #888888;
+top: 240px;
+}
+.square2:hover {
+    transform: translate(20px, 20px);
+}
+
+.square3 {
+    background: #00aa9d;
+    border-radius: 3px;
+    height: 250px;
+    margin: 100px;
+    position: absolute;
+    transition: transform 0.8s;
+    width: 150px;
+    top: 300px;
+    left: 100px;
+}
+
+
+.square4{
+    background: #2b3f53;
+    border-radius: 3px;
+    height: 250px;
+    margin: 100px;
+    transition: transform 0.8s;
+    position: absolute;
+    width: 150px;
+box-shadow: 10px 10px 10px #888888;
+top: 300px;
+left: 100px;
+}
+.square4:hover {
+    transform: translate(20px, 20px);
+}
+.contain p{
+    font-size: 30px;
+    width: 380px;
+    position: absolute;
+    left: 1200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+
+}
+span{
+    position: absolute;
+    top:720px ;
+    left:1430px ;
+    width: 120px;
+    font-size: 13px;
+    font-family: fantasy;
+}
